@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{53E0B184-1446-4327-876A-7682435B7EE2}</ProjectGuid>
+    <RootNamespace>Snaketraditional</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="animation.cpp" />
+    <ClCompile Include="aStar.cpp" />
+    <ClCompile Include="aStarUse.cpp" />
+    <ClCompile Include="linkedList.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="map.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="supports\items\baneling.bmp" />
+    <Image Include="supports\items\food_normal.bmp" />
+    <Image Include="supports\items\food_typical.bmp" />
+    <Image Include="supports\items\mine.bmp" />
+    <Image Include="supports\maps\pureMap.bmp" />
+    <Image Include="supports\probe\extension\none.bmp" />
+    <Image Include="supports\probe\extension\probe16_1.bmp" />
+    <Image Include="supports\probe\extension\probe16_2.bmp" />
+    <Image Include="supports\probe\extension\probe16_3.bmp" />
+    <Image Include="supports\probe\extension\probe16_4.bmp" />
+    <Image Include="supports\probe\extension\probe16_5.bmp" />
+    <Image Include="supports\probe\extension\probe16_6.bmp" />
+    <Image Include="supports\probe\extension\probe16_7.bmp" />
+    <Image Include="supports\probe\extension\probe16_8.bmp" />
+    <Image Include="supports\probe\extension\probe16_9.bmp" />
+    <Image Include="supports\probe\extension\probe1_1.bmp" />
+    <Image Include="supports\probe\extension\probe1_2.bmp" />
+    <Image Include="supports\probe\extension\probe1_3.bmp" />
+    <Image Include="supports\probe\extension\probe1_4.bmp" />
+    <Image Include="supports\probe\extension\probe1_5.bmp" />
+    <Image Include="supports\probe\extension\probe1_6.bmp" />
+    <Image Include="supports\probe\extension\probe1_7.bmp" />
+    <Image Include="supports\probe\extension\probe1_8.bmp" />
+    <Image Include="supports\probe\extension\probe1_9.bmp" />
+    <Image Include="supports\probe\extension\probe25_1.bmp" />
+    <Image Include="supports\probe\extension\probe25_2.bmp" />
+    <Image Include="supports\probe\extension\probe25_3.bmp" />
+    <Image Include="supports\probe\extension\probe25_4.bmp" />
+    <Image Include="supports\probe\extension\probe25_5.bmp" />
+    <Image Include="supports\probe\extension\probe25_6.bmp" />
+    <Image Include="supports\probe\extension\probe25_7.bmp" />
+    <Image Include="supports\probe\extension\probe25_8.bmp" />
+    <Image Include="supports\probe\extension\probe25_9.bmp" />
+    <Image Include="supports\probe\extension\probe8_1.bmp" />
+    <Image Include="supports\probe\extension\probe8_2.bmp" />
+    <Image Include="supports\probe\extension\probe8_3.bmp" />
+    <Image Include="supports\probe\extension\probe8_4.bmp" />
+    <Image Include="supports\probe\extension\probe8_5.bmp" />
+    <Image Include="supports\probe\extension\probe8_6.bmp" />
+    <Image Include="supports\probe\extension\probe8_7.bmp" />
+    <Image Include="supports\probe\extension\probe8_8.bmp" />
+    <Image Include="supports\probe\extension\probe8_9.bmp" />
+    <Image Include="supports\probe\probe1.bmp" />
+    <Image Include="supports\probe\probe10.bmp" />
+    <Image Include="supports\probe\probe11.bmp" />
+    <Image Include="supports\probe\probe12.bmp" />
+    <Image Include="supports\probe\probe13.bmp" />
+    <Image Include="supports\probe\probe14.bmp" />
+    <Image Include="supports\probe\probe15.bmp" />
+    <Image Include="supports\probe\probe16.bmp" />
+    <Image Include="supports\probe\probe17.bmp" />
+    <Image Include="supports\probe\probe18.bmp" />
+    <Image Include="supports\probe\probe19.bmp" />
+    <Image Include="supports\probe\probe2.bmp" />
+    <Image Include="supports\probe\probe20.bmp" />
+    <Image Include="supports\probe\probe21.bmp" />
+    <Image Include="supports\probe\probe22.bmp" />
+    <Image Include="supports\probe\probe23.bmp" />
+    <Image Include="supports\probe\probe24.bmp" />
+    <Image Include="supports\probe\probe25.bmp" />
+    <Image Include="supports\probe\probe26.bmp" />
+    <Image Include="supports\probe\probe27.bmp" />
+    <Image Include="supports\probe\probe28.bmp" />
+    <Image Include="supports\probe\probe29.bmp" />
+    <Image Include="supports\probe\probe3.bmp" />
+    <Image Include="supports\probe\probe30.bmp" />
+    <Image Include="supports\probe\probe31.bmp" />
+    <Image Include="supports\probe\probe4.bmp" />
+    <Image Include="supports\probe\probe5.bmp" />
+    <Image Include="supports\probe\probe6.bmp" />
+    <Image Include="supports\probe\probe7.bmp" />
+    <Image Include="supports\probe\probe8.bmp" />
+    <Image Include="supports\probe\probe9.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="supports\music\background\Holding Up the Sky.mp3" />
+    <Media Include="supports\music\background\Honor Guide Me.mp3" />
+    <Media Include="supports\music\background\Khala%27s End.mp3" />
+    <Media Include="supports\music\background\Last Stand.mp3" />
+    <Media Include="supports\music\background\My Life for Aiur.mp3" />
+    <Media Include="supports\music\background\The Dark Voice.mp3" />
+    <Media Include="supports\music\background\The Fall of Shakuras.mp3" />
+    <Media Include="supports\music\background\The Golden Armada.mp3" />
+    <Media Include="supports\music\background\The Keystone.mp3" />
+    <Media Include="supports\music\background\The Preserver.mp3" />
+    <Media Include="supports\music\background\The Spear of Adun.mp3" />
+    <Media Include="supports\music\background\The Stars Our Home.mp3" />
+    <Media Include="supports\music\background\Valor My Shield.mp3" />
+    <Media Include="supports\music\background\Valor My Shield.wav" />
+    <Media Include="supports\music\effect\announcer\Alert_ProtossGamePaused_01.wav" />
+    <Media Include="supports\music\effect\announcer\Alert_ProtossGameResumed_01.wav" />
+    <Media Include="supports\music\effect\announcer\Alert_ProtossNotEnoughEnergy_01.wav" />
+    <Media Include="supports\music\effect\announcer\DVaA_GamePaused00_01.wav" />
+    <Media Include="supports\music\effect\announcer\DVaA_GameResumed00_01.wav" />
+    <Media Include="supports\music\effect\announcer\DVaA_NotEnoughEnergy00_01.wav" />
+    <Media Include="supports\music\effect\announcer\HeroNovaMP1_Energy_Low01_01.wav" />
+    <Media Include="supports\music\effect\announcer\Nexus_ChronoBoostImpact0_01.wav" />
+    <Media Include="supports\music\effect\announcer\NovaA_GamePaused00_01.wav" />
+    <Media Include="supports\music\effect\announcer\NovaA_GameResumed00_01.wav" />
+    <Media Include="supports\music\effect\probe\Probe_Ready0_01.wav" />
+    <Media Include="supports\music\effect\probe\Probe_Ready1_01.wav" />
+    <Media Include="supports\music\effect\probe\Probe_Yes0_01.wav" />
+    <Media Include="supports\music\effect\probe\Probe_Yes1_01.wav" />
+    <Media Include="supports\music\effect\probe\Probe_Yes2_01.wav" />
+    <Media Include="supports\music\effect\probe\Probe_Yes3_01.wav" />
+    <Media Include="supports\music\effect\probe\Protoss_ExplosionSmall0_01.wav" />
+    <Media Include="supports\music\effect\probe\Protoss_ExplosionSmall1_01.wav" />
+    <Media Include="supports\music\effect\probe\Protoss_ExplosionSmall2_01.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Astar.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

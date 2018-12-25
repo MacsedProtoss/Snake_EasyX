@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\probe">
+      <UniqueIdentifier>{98165d04-1453-402d-9de7-e6c532129c51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\maps">
+      <UniqueIdentifier>{bd5df73d-7d74-4148-b346-ede7296714b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\items">
+      <UniqueIdentifier>{ac0daa35-525e-41f3-9fbd-4b4b8c1b27dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\probe\extension">
+      <UniqueIdentifier>{d38bdcec-6933-4ee5-8186-622ee4cc596c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\music">
+      <UniqueIdentifier>{73a07404-1de0-47c7-bf6b-0a9ae38ae577}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\music\background">
+      <UniqueIdentifier>{fac57d51-271e-4479-8e33-83564766db84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\music\effect">
+      <UniqueIdentifier>{8697a9bd-f6c8-41fd-b57e-2d992b05ab47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\music\effect\probe">
+      <UniqueIdentifier>{68720feb-72b8-4353-b3a5-3662b622ad9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\music\effect\announcer">
+      <UniqueIdentifier>{1ef850c3-69d5-4054-bbe5-5f2808cf7fa8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="linkedList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aStar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="aStarUse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="supports\probe\probe1.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe2.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe3.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe4.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe5.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe6.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe7.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe8.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe9.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe10.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe11.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe12.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe13.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe14.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe15.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe16.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe17.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe18.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe19.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe20.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe21.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe22.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe23.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe24.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe25.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe26.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe27.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe28.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe29.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe30.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\probe\probe31.bmp">
+      <Filter>资源文件\probe</Filter>
+    </Image>
+    <Image Include="supports\maps\pureMap.bmp">
+      <Filter>资源文件\maps</Filter>
+    </Image>
+    <Image Include="supports\items\food_normal.bmp">
+      <Filter>资源文件\items</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\none.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_1.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_2.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_3.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_4.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_5.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_6.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_7.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_8.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe1_9.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_1.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_2.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_3.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_4.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_5.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_6.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_7.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_8.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe8_9.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_1.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_2.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_3.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_4.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_5.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_6.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_7.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_8.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe16_9.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_1.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_2.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_3.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_4.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_5.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_6.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_7.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_8.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\probe\extension\probe25_9.bmp">
+      <Filter>资源文件\probe\extension</Filter>
+    </Image>
+    <Image Include="supports\items\mine.bmp">
+      <Filter>资源文件\items</Filter>
+    </Image>
+    <Image Include="supports\items\baneling.bmp">
+      <Filter>资源文件\items</Filter>
+    </Image>
+    <Image Include="supports\items\food_typical.bmp">
+      <Filter>资源文件\items</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="supports\music\background\Holding Up the Sky.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\Honor Guide Me.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\Khala%27s End.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\Last Stand.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\My Life for Aiur.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\The Dark Voice.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\The Fall of Shakuras.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\The Golden Armada.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\The Keystone.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\The Preserver.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\The Spear of Adun.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\The Stars Our Home.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\Valor My Shield.mp3">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\background\Valor My Shield.wav">
+      <Filter>资源文件\music\background</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\Alert_ProtossGamePaused_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\Alert_ProtossGameResumed_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\DVaA_GamePaused00_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\DVaA_GameResumed00_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\NovaA_GamePaused00_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\NovaA_GameResumed00_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Probe_Ready0_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Probe_Ready1_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Probe_Yes0_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Probe_Yes1_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Probe_Yes2_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Probe_Yes3_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Protoss_ExplosionSmall0_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Protoss_ExplosionSmall1_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\probe\Protoss_ExplosionSmall2_01.wav">
+      <Filter>资源文件\music\effect\probe</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\Alert_ProtossNotEnoughEnergy_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\DVaA_NotEnoughEnergy00_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\HeroNovaMP1_Energy_Low01_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+    <Media Include="supports\music\effect\announcer\Nexus_ChronoBoostImpact0_01.wav">
+      <Filter>资源文件\music\effect\announcer</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Astar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
